@@ -31,7 +31,34 @@ An AI-powered system that automatically reads your Gmail inbox, identifies impor
 ## ⚙️ Setup
 
 1. Clone repo:
-
-```bash
+bash
 git clone https://github.com/aaravnautiyal/ai-email-assistant.git
 cd ai-email-assistant
+
+2. Create .env
+GEMINI_API_KEY=your_key
+TELEGRAM_BOT_TOKEN=your_token
+TELEGRAM_CHAT_ID=your_chat_id
+
+3.Install dependencies - 
+pip install -r requirements.txt
+
+4.Run - python -m app.main
+
+5. Example output - 
+   
+   
+   🚨 IMPORTANT PLACEMENT EMAIL
+
+🏢 Company: Dyson
+📊 CGPA: Not specified
+💰 Stipend: Not specified
+📍 Location: Not specified
+
+📝 Summary:
+Dyson is hiring interns...
+
+🔗 Open Email
+
+
+
